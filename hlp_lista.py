@@ -18,5 +18,9 @@ print(lista)
 
 #redigera listor
 
-while True:
-    
+List = [1,2,3]
+w, v, t = List
+print(v, w, t )
+# 2 , 1 , 3
+print(t, v, w )
+# 3 , 2 , 1
