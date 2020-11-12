@@ -16,7 +16,7 @@ lista = [[i for i in range(1,11)] for j in range(5)]
 lista = [i for i in range(0,101,2)]
 print(lista)
 
-#redigera listor
+#spara ner lista på variabler
 
 List = [1,2,3]
 w, v, t = List
@@ -24,3 +24,23 @@ print(v, w, t )
 # 2 , 1 , 3
 print(t, v, w )
 # 3 , 2 , 1
+
+#[::-1] för att reversa listan
+lista = [1,2,3,2]
+
+print(lista[::-1])
+# [2,3,2,1]
+
+#Fungerar även på strings
+strng = "abc"
+print(strng[::-1])
+#   cba
+
+#ta bort saker från lista: skillnad pop() och remove()
+
+lista = ['a','b','c']
+
+lista.pop() # tar bort sista elementet
+print(lista) # ['a','b']
+lista.remove('a') # tabort objektet som står i parantesen
+print(lista) # ['b']
