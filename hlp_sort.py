@@ -3,6 +3,8 @@
 '''
 import random
 lista = [random.randint(1,100) for i in range(20)]
+
+
 def bubbleSort(lista):
     while True:
         swap=0
