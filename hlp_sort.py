@@ -2,7 +2,7 @@
     Sorteringsalgoritmer
 '''
 import random
-lista = [random.randint(1,100) for i in range(20)]
+lista = [random.randint(1,100) for i in range(10)]
 
 
 def bubbleSort(lista):
@@ -14,6 +14,7 @@ def bubbleSort(lista):
                 lista[i] = lista[i+1]
                 lista[i+1]=temp
                 swap+=1
+        print(lista)
         if swap == 0:
             break
     return lista
