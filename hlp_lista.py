@@ -44,3 +44,4 @@ lista.pop() # tar bort sista elementet
 print(lista) # ['a','b']
 lista.remove('a') # tabort objektet som står i parantesen
 print(lista) # ['b']
+
